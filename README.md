@@ -34,12 +34,12 @@ conda activate ForeDiffusion
 # CUDA 12.2 by default, If your system has CUDA >= 12.1: 
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 
-\# For other CUDA versions, please refer to the official PyTorch installation guide to find the appropriate command.
+# For other CUDA versions, please refer to the official PyTorch installation guide to find the appropriate command.
 ```
 3. Install ForeDiffusion
 ```bash
 pip install -e .
->pip install zarr\==2.12.0 wandb ipdb gpustat dm_control omegaconf hydra-core\==1.2.0 dill\==0.3.5.1 einops\==0.4.1 diffusers\==0.11.1 numba\==0.56.4 moviepy imageio av matplotlib termcolor
+pip install zarr\==2.12.0 wandb ipdb gpustat dm_control omegaconf hydra-core\==1.2.0 dill\==0.3.5.1 einops\==0.4.1 diffusers\==0.11.1 numba\==0.56.4 moviepy imageio av matplotlib termcolor
 ```
 
 4. Install pytorch3d and visualizer (References the [3DP Repository](https://github.com/YanjieZe/3D-Diffusion-Policy).)
