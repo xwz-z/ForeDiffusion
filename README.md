@@ -3,7 +3,7 @@
 # ForeDiffusion: A Foresight-Conditioned Diffusion Policy via Future View
 
 
-![[fig/Homepage.png]]
+![Homepage](fig/Homepage.png)
 **The Foresight-Conditioned Diffusion (ForeDiffusion)** is introduced by injecting the predicted future view representation into the diffusion process, and the strategy is guided to be forward-looking, thereby correcting the trajectory deviation. Following this design, ForeDiffusion employs a dual loss optimization, combining the traditional denoising loss and the consistency loss of future observations, to achieve the unified optimization of local action accuracy and overall task temporal coherence. Extensive evaluation on the MetaWorld benchmark and the Adroit suite demonstrates that ForeDiffusion achieves an average success rate of 80\% for the overall task, significantly outperforming the existing mainstream diffusion methods in high difficulty tasks, while maintaining stable performance across the entire task set.
 
 ## ✨ Insights
@@ -118,7 +118,7 @@ Evaluation includes visualization of the agent performance. All results will be 
 [SDM Policy](https://sdm-policy.github.io/), Score and Distribution Matching Policy: Advanced Accelerated Visuomotor Policies via Matched Distillation
 [ManiCM](https://manicm-fast.github.io/), ManiCM: Real-time 3D Diffusion Policy via Consistency Model for Robotic Manipulation
 
-![[fig/Result.png]]
+![Result](fig/Result.png)
 # License
 
 # Acknowledge
