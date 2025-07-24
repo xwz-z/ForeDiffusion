@@ -8,6 +8,7 @@
 
 ## ✨ Insights
 
+![Insights](fig/Insights.png)
 - Considering the importance of global conditioning in the diffusion process, enriching the conditioning information can potentially lead to more accurate and stable trajectory predictions.
 - Introducing new conditioning signals necessitates designing corresponding new loss functions for effective self-supervised training.
 
