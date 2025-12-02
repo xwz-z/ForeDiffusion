@@ -40,7 +40,7 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 3. Install ForeDiffusion
 ```bash
 pip install -e .
-pip install zarr\==2.12.0 wandb ipdb gpustat dm_control omegaconf hydra-core\==1.2.0 dill\==0.3.5.1 einops\==0.4.1 diffusers\==0.11.1 numba\==0.56.4 moviepy imageio av matplotlib termcolor
+pip install zarr==2.12.0 wandb ipdb gpustat dm_control omegaconf hydra-core==1.2.0 dill==0.3.5.1 einops==0.4.1 diffusers==0.11.1 numba==0.56.4 moviepy imageio av matplotlib termcolor
 ```
 
 4. Install pytorch3d and visualizer (References the [3DP Repository](https://github.com/YanjieZe/3D-Diffusion-Policy).)
@@ -113,17 +113,22 @@ Evaluation includes visualization of the agent performance. All results will be 
 
 # 📈 Baselines
 
-[Diffusion Policy](https://diffusion-policy.cs.columbia.edu/), Diffusion Policy: Visuomotor Policy Learning via Action Diffusion
-[3D Diffusion Policy](https://3d-diffusion-policy.github.io/), 3D Diffusion Policy: Generalizable Visuomotor Policy Learning via Simple 3D Representations
-[FlowPolicy](https://github.com/zql-kk/FlowPolicy), FlowPolicy: Enabling Fast and Robust 3D Flow-based Policy via Consistency Flow Matching for Robot Manipulation
-[SDM Policy](https://sdm-policy.github.io/), Score and Distribution Matching Policy: Advanced Accelerated Visuomotor Policies via Matched Distillation
-[ManiCM](https://manicm-fast.github.io/), ManiCM: Real-time 3D Diffusion Policy via Consistency Model for Robotic Manipulation
+[Diffusion Policy](https://diffusion-policy.cs.columbia.edu/): Visuomotor Policy Learning via Action Diffusion
+
+[3D Diffusion Policy](https://3d-diffusion-policy.github.io/): Generalizable Visuomotor Policy Learning via Simple 3D Representations
+
+[FlowPolicy](https://github.com/zql-kk/FlowPolicy): Enabling Fast and Robust 3D Flow-based Policy via Consistency Flow Matching for Robot Manipulation
+
+[SDM Policy](https://sdm-policy.github.io/): Advanced Accelerated Visuomotor Policies via Matched Distillation
+
+[ManiCM](https://manicm-fast.github.io/): Real-time 3D Diffusion Policy via Consistency Model for Robotic Manipulation
 
 ![Result](fig/Result.png)
 # License
 
-# Acknowledge
-Our code is generally built upon: [3D Diffusion Policy](https://github.com/YanjieZe/3D-Diffusion-Policy), [VRL3](https://github.com/microsoft/VRL3), [MetaWorld](https://github.com/Farama-Foundation/Metaworld),[Crossway Diffusion](https://github.com/LostXine/crossway_diffusion). We thank all these authors for their nicely open sourced code and their great contributions to the community.
-# Citation
+# 🙏 Acknowledgements
+Our code is generally built upon: [3D Diffusion Policy](https://github.com/YanjieZe/3D-Diffusion-Policy), [VRL3](https://github.com/microsoft/VRL3), [MetaWorld](https://github.com/Farama-Foundation/Metaworld), [Crossway Diffusion](https://github.com/LostXine/crossway_diffusion). We thank all these authors for their nicely open sourced code and their great contributions to the community.
+
+# 😄 Citation
 If you find our work useful, please consider citing:
 
