@@ -134,4 +134,16 @@ Our code is generally built upon: [3D Diffusion Policy](https://github.com/Yanji
 
 # 😄 Citation
 If you find our work useful, please consider citing:
-
+```bibtex
+@inproceedings{xie2026forediffusion,
+  title     = {ForeDiffusion: Foresight-Conditioned Diffusion Policy via Future View Construction for Robot Manipulation},
+  author    = {Xie, Weize and Ding, Yi and He, Ying and Wang, Leilei and Bai, Binwen and Zhao, Zheyi and Wang, Chenyang and Yu, F. Richard},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume    = {40},
+  number    = {22},
+  pages     = {18665--18673},
+  year      = {2026},
+  doi       = {10.1609/aaai.v40i22.38934},
+  url       = {https://doi.org/10.1609/aaai.v40i22.38934}
+}
+```
